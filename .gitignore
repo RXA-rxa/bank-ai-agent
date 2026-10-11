@@ -1,0 +1,16 @@
+# 敏感信息（绝对不能传）
+.env
+
+# Python 虚拟环境
+.venv/
+
+# 数据库（含账户数据，不公开）
+data/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 临时文件
+*.tmp
+!requirements.txt
